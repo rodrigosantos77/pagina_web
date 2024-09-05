@@ -1,0 +1,52 @@
+
+
+$color-white:   #FFFFFF;
+$color-green:   #29AE81;
+$color-marrom:  #A4A4A4;
+$color-Marrom-forte:#A52A2A;
+$color-black:   #000000;
+$color-site-color: #3a7afe;
+$color-main-color: #ebeef6;
+$color-active-color: #d4def7;
+$color-bg-color: #ecedf0;
+$color-second-color: #f1f1f1;
+$color-third-color: #9fa7bd;
+$color-main-bg-color: #192039;
+$color-second-bg-color: #1e2746;
+$color-third-bg-color: #3a7afe;
+$color-hover: #131b38;
+$color-primary-color: #0088cc;
+$color-success-color: #47a447;
+$color-info-color: #5bc0de;
+$color-warnning-color: #ed9c28;
+$color-danger-color: #d2322d;
+$color-dark-roxe-color: #4a2d4a;
+$color-light-roxe-color: #c26cc2;
+$color-viollet-roxe-color: #ca61cb;
+$color-circle-defaut: #0000eb;
+$color-circle-defaut-hover: #0095eb;
+$color-circle-rodape: #090662;
+
+/* variaveis media-queries */
+
+$media-mobile-s:        320px;
+$media-mobile-m:        375px;
+$media-mobile-l:        425px;
+$media-tablet:          768px;
+$media-desktop:         1024px;
+
+//mixins de fontes
+
+@mixin font-title{
+  font-family: 'Ruda',  sans-serif;
+  font-weight: 700;
+}
+@mixin font-subtitle{
+  font-family: 'Ruda',  sans-serif;
+  font-weight: 500;
+}
+@mixin font-paragraf{
+  font-family: 'Ruda',  sans-serif;
+  font-weight: 400;
+}
+

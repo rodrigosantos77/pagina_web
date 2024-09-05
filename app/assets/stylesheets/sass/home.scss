@@ -1,54 +1,51 @@
 
-
-/* variaveis de css  */
-:root{
-	--site-color: #3a7afe;
-	--main-color: #ebeef6;
-	--active-color: #d4def7;
-	--bg-color: #ecedf0;
-	--second-color: #f1f1f1;
-	--third-color: #9fa7bd;
-	--main-bg-color: #192039;
-	--second-bg-color: #1e2746;
-	--third-bg-color: #3a7afe;
-	--fourth-bg-color: #131b38;
-	--primary-color: #0088cc;
-	--success-color: #47a447;
-	--info-color: #5bc0de;
-	--warnning-color: #ed9c28;
-	--danger-color: #d2322d;
-	--dark-roxe-color: #4a2d4a;
-	--light-roxe-color: #c26cc2;
-	--viollet-roxe-color: #ca61cb;	
-    --circle-defaut: #0000eb;
-    --circle-defaut-hover: #0095eb;
-    --circle-rodape: #090662;
-}
-
-
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;   
-}
-main {
-    flex: 1;
-}
-
-
-/* Estilização da navbar */ 
+/* Estilização da navbar */
 .menu ul li a.nav-link {
     color:#fff !important;
 }
 .menu ul li a.nav-link:hover {
-    color: var( --third-color) !important;
+    color: $color-warnning-color !important;
   }
 
 
+/* ajuste padrao da formatação da pagina padrao*/
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* resetando as configuracoes padroes do HTML E BODY */
+    html, body {
+      @include font-paragraf;
+
+    }
+    .home{
+       .desc-top{
+
+           .container{
+
+           /* formatação do h1*/
+           h1{
+             font-size: 2rem;
+               text-align: center;
+              font-weight: bold;
+           }
+
+           }
 
 
-/* alinhamento do texto e botao Mais detalhes Jumbotron */
+       }
+
+
+    }
+
+
+
+
+
+
+
+/* alinhamento do texto e botao Mais detalhes Jumbotron
 .jumbotron .container {
     display: flex;
     flex-direction: column;
@@ -58,6 +55,9 @@ main {
     margin: 0;
     margin-bottom: 1rem;
 }
+*/
+
+
 
 
 .desc-top{
